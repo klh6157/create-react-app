@@ -1,38 +1,88 @@
-.App {
+.characterCard{
   text-align: center;
+  background-color: red;
+  max-width: 400px;
+ 
+}
+.center{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  text-align: center;
+  font-weight: bold;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+p{
+  text-align: center;
+  font-weight: bold;
+  padding: 1%;
+  
+}
+.btn {
+  text-align: center;
+  margin: 3px;
+  padding: 3px 3px;
+  
+}
+.add{
+ text-align: center;
+  margin: 3px;
+  padding: 3px 3px;
+}
+.delete{
+  text-align: center;
+  margin: 3px;
+  padding: 3px 3px;
+}
+.color{
+  text-align: center;
+  margin: 3px;
+  padding: 3px 3px;
+}
+.heading {
+  text-align: center;
+  margin: 3px;
+  padding: 3px 3px;
+  
+}
+.btn:hover{
+  background-color: cyan;
+}
+.add:hover{
+  background-color: cyan;
+}
+.delete:hover{
+  background-color: cyan;
+}
+.color:hover{
+  background-color: cyan;
+}
+.heading:hover{
+  background-color: cyan;
+}
+
+@media only screen and (max-width: 500px){
+  button{
+    display: none;
+    
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 500px){
+  .card{
+    width: 25%;
+    height: auto;
+   
   }
-  to {
-    transform: rotate(360deg);
+  h2{
+    font-size: 50px;
+    
+  }
+  p{
+    font-size: 50%;
   }
 }
